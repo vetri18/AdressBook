@@ -10,12 +10,12 @@
 
             //ability to creating contacts
             Contact contact1 = new Contact();
-            contact1.firstName = "Vidhya";
-            contact1.lastName = "Mundhe";
-            contact1.address = "Jalna Maharashtra";
+            contact1.firstName = "Vetri";
+            contact1.lastName = "velan";
+            contact1.address = "hosur";
             contact1.phone = 1234567890;
-            contact1.city = "Jalna";
-            contact1.state = "Maharashtra";
+            contact1.city = "banglore";
+            contact1.state = "banglore";
             contact1.zipcode = 413515;
             contactList.Add(contact1);
 
