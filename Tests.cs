@@ -13,14 +13,14 @@ namespace AddressBookADO.NET_TEST
         {
             //passing data for updating
             AddressBookContactDetails contactDetails = new AddressBookContactDetails();
-            contactDetails.firstName = "Sumit";
-            contactDetails.lastName = "Verma";
-            contactDetails.address = "Ambika Nagar";
-            contactDetails.city = "Aurangabad";
-            contactDetails.state = "Maharashtra";
+            contactDetails.firstName = "vetri";
+            contactDetails.lastName = "Velan";
+            contactDetails.address = "Anbu Nagar";
+            contactDetails.city = "hosur";
+            contactDetails.state = "tamilnadu";
             contactDetails.zip = 125121;
-            contactDetails.phoneNo = 8570934858;
-            contactDetails.eMail = "sumit.v99@gmail.com";
+            contactDetails.phoneNo = 8883380120;
+            contactDetails.eMail = "vetrivel.kce@gmail.com";
             contactDetails.addressBookName = "B";
             //passing data to update method in address book operations
             AddressBookOperations addressBookOperations = new AddressBookOperations();
@@ -36,8 +36,8 @@ namespace AddressBookADO.NET_TEST
             AddressBookContactDetails actual = UpdateContactDetails();
             AddressBookContactDetails contactDetails = new AddressBookContactDetails();
             //passing data to get updated contact details
-            contactDetails.firstName = "Sumit";
-            contactDetails.lastName = "verma";
+            contactDetails.firstName = "vetri";
+            contactDetails.lastName = "velan";
             contactDetails.addressBookName = "B";
             AddressBookOperations addressBookOperations = new AddressBookOperations();
             //getting expected data from address book operations -getting updated details
