@@ -22,7 +22,7 @@ namespace AddressBookDay37
             table.Columns.Add("Email");
 
 
-            table.Rows.Add("Milan", "Biranwar", "Katraj", "Pune", "Maharashtra", "441601", "1234567892", "abcde@gamil.com");
+            table.Rows.Add("Vetri", "velan", "hosur", "krishnagiri", "tamilnadu", "635109", "8883380120", "vetrivel@gamil.com");
 
             DisplayFirstNameFromTable(table);
             DisplayLastNameFromTable(table);
