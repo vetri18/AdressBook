@@ -101,6 +101,7 @@ namespace AddressBookADO.NET_TEST
             List<AddressBookContactDetails> contactDetailsActual = addressBookOperations.GetAllContactDetailsWithConditions();
             //assert for comparing list
             CollectionAssert.AreEqual(contactDetailsActual, contactDetailsExpected);
+            
         }
     }
 }
